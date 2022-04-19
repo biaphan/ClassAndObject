@@ -13,16 +13,12 @@ public class MainApp {
 				arr[i] = new SinhVien(null, i, null, null, i);
 				System.out.println(" Nhập Sinh Viên Thứ : " + (i+1));
 				arr[i].name = sc.nextLine();
-				arr[i].old = sc.nextInt();
-				sc.nextLine();
-				arr[i].adress =sc.nextLine();
-				sc.nextLine();
-				arr[i].sdt =sc.nextLine();
-				sc.nextLine();
+				arr[i].old = sc.nextInt();		
+				arr[i].adress =sc.nextLine();	
+				arr[i].sdt =sc.nextLine();	
 				arr[i].dtb=sc.nextFloat();
-				sc.nextLine();
-				}
-				System.out.println("---------------------------");
+				
+				System.out.println("---------------------------");}
 				
 				for (int i = 0; i < arr.length; i++) {
 					
